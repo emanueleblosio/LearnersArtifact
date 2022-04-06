@@ -11,6 +11,11 @@
 		657D2BAC27FB30F500FA23D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657D2BAB27FB30F500FA23D5 /* ContentView.swift */; };
 		657D2BAE27FB30F700FA23D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 657D2BAD27FB30F700FA23D5 /* Assets.xcassets */; };
 		657D2BB127FB30F700FA23D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 657D2BB027FB30F700FA23D5 /* Preview Assets.xcassets */; };
+		657D2BBE27FC8E3300FA23D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657D2BBD27FC8E3300FA23D5 /* ViewController.swift */; };
+		657D2BC027FC8EB900FA23D5 /* AfternoonLearnersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657D2BBF27FC8EB900FA23D5 /* AfternoonLearnersView.swift */; };
+		657D2BE627FDEB8100FA23D5 /* HalfSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657D2BE527FDEB8100FA23D5 /* HalfSheetController.swift */; };
+		657D2BE827FDEBB700FA23D5 /* NonModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657D2BE727FDEBB700FA23D5 /* NonModal.swift */; };
+		657D2BEC27FDEE2800FA23D5 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657D2BEB27FDEE2800FA23D5 /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		657D2BAB27FB30F500FA23D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		657D2BAD27FB30F700FA23D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		657D2BB027FB30F700FA23D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		657D2BBD27FC8E3300FA23D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		657D2BBF27FC8EB900FA23D5 /* AfternoonLearnersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfternoonLearnersView.swift; sourceTree = "<group>"; };
+		657D2BE527FDEB8100FA23D5 /* HalfSheetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfSheetController.swift; sourceTree = "<group>"; };
+		657D2BE727FDEBB700FA23D5 /* NonModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonModal.swift; sourceTree = "<group>"; };
+		657D2BEB27FDEE2800FA23D5 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +62,11 @@
 			isa = PBXGroup;
 			children = (
 				657D2BA927FB30F500FA23D5 /* LearnersArtifactApp.swift */,
-				657D2BAB27FB30F500FA23D5 /* ContentView.swift */,
+				657D2BE527FDEB8100FA23D5 /* HalfSheetController.swift */,
+				657D2BE927FDED2100FA23D5 /* Models */,
+				657D2BEA27FDED6500FA23D5 /* Views */,
+				657D2BBF27FC8EB900FA23D5 /* AfternoonLearnersView.swift */,
+				657D2BBD27FC8E3300FA23D5 /* ViewController.swift */,
 				657D2BAD27FB30F700FA23D5 /* Assets.xcassets */,
 				657D2BAF27FB30F700FA23D5 /* Preview Content */,
 			);
@@ -65,6 +79,23 @@
 				657D2BB027FB30F700FA23D5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		657D2BE927FDED2100FA23D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				657D2BE727FDEBB700FA23D5 /* NonModal.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		657D2BEA27FDED6500FA23D5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				657D2BAB27FB30F500FA23D5 /* ContentView.swift */,
+				657D2BEB27FDEE2800FA23D5 /* ButtonView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +169,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				657D2BAC27FB30F500FA23D5 /* ContentView.swift in Sources */,
+				657D2BBE27FC8E3300FA23D5 /* ViewController.swift in Sources */,
 				657D2BAA27FB30F500FA23D5 /* LearnersArtifactApp.swift in Sources */,
+				657D2BE827FDEBB700FA23D5 /* NonModal.swift in Sources */,
+				657D2BE627FDEB8100FA23D5 /* HalfSheetController.swift in Sources */,
+				657D2BC027FC8EB900FA23D5 /* AfternoonLearnersView.swift in Sources */,
+				657D2BEC27FDEE2800FA23D5 /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
