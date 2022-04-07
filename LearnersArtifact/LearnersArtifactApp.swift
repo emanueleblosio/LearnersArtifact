@@ -11,7 +11,7 @@ import SwiftUI
 struct LearnersArtifactApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabBarView()
         }
     }
 }

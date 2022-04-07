@@ -15,7 +15,7 @@
 		657D2BC027FC8EB900FA23D5 /* AfternoonLearnersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657D2BBF27FC8EB900FA23D5 /* AfternoonLearnersView.swift */; };
 		657D2BE627FDEB8100FA23D5 /* HalfSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657D2BE527FDEB8100FA23D5 /* HalfSheetController.swift */; };
 		657D2BE827FDEBB700FA23D5 /* NonModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657D2BE727FDEBB700FA23D5 /* NonModal.swift */; };
-		657D2BEC27FDEE2800FA23D5 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657D2BEB27FDEE2800FA23D5 /* ButtonView.swift */; };
+		657D2C2C27FF170C00FA23D5 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657D2C2B27FF170C00FA23D5 /* TabBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +28,7 @@
 		657D2BBF27FC8EB900FA23D5 /* AfternoonLearnersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfternoonLearnersView.swift; sourceTree = "<group>"; };
 		657D2BE527FDEB8100FA23D5 /* HalfSheetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfSheetController.swift; sourceTree = "<group>"; };
 		657D2BE727FDEBB700FA23D5 /* NonModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonModal.swift; sourceTree = "<group>"; };
-		657D2BEB27FDEE2800FA23D5 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		657D2C2B27FF170C00FA23D5 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				657D2BAB27FB30F500FA23D5 /* ContentView.swift */,
-				657D2BEB27FDEE2800FA23D5 /* ButtonView.swift */,
+				657D2C2B27FF170C00FA23D5 /* TabBarView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -170,11 +170,11 @@
 			files = (
 				657D2BAC27FB30F500FA23D5 /* ContentView.swift in Sources */,
 				657D2BBE27FC8E3300FA23D5 /* ViewController.swift in Sources */,
+				657D2C2C27FF170C00FA23D5 /* TabBarView.swift in Sources */,
 				657D2BAA27FB30F500FA23D5 /* LearnersArtifactApp.swift in Sources */,
 				657D2BE827FDEBB700FA23D5 /* NonModal.swift in Sources */,
 				657D2BE627FDEB8100FA23D5 /* HalfSheetController.swift in Sources */,
 				657D2BC027FC8EB900FA23D5 /* AfternoonLearnersView.swift in Sources */,
-				657D2BEC27FDEE2800FA23D5 /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
